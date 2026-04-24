@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Demostración de Output en Javascript</title>
+  </head>
+  <body>
+    <h1>Demostración de Output en Javascript</h1>
+    
+    <button onclick="mostrarAlerta()"> Click aqui</button>  
+
+    <p id="Boton2"></p>
+    <button onclick="cambiarTexto()"> Otro Click por aca</button>
+    
+    <script>
+      function mostrarAlerta() {
+        alert("Juan Carlos");
+      }
+
+      function cambiarTexto() {
+        document.getElementById("Boton2").innerHTML = "¡Texto actualizado con Javascript!";
+      }
+      
+      console.log("Se esta cargando la pagina");
+    </script>
+     
+  </body>
+</html>  
